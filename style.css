@@ -25,8 +25,11 @@ body{
    letter-spacing: 2.5px;
    cursor: pointer;
 }
-.categories .categories1 .main-categories{
-    display: inline-block;
+.categories .categories1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;;
 }
 .categories .main-categories a{
     text-decoration: none;
